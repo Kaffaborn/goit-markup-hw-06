@@ -514,7 +514,8 @@ header{
     margin-left: 70px;
 }
 
-.footer-text{
+.footer-text,
+.footer-form-description{
     color: var(--primary-white-color);
     font-weight: 700;
     font-size: 14px;
@@ -532,6 +533,54 @@ header{
 .footer-social-media .social-media-link{
     background-color: var(--footer-links-bg);
     color: var(--primary-white-color);
+}
+
+.footer-form-box{
+    margin-left: 93px;
+}
+
+
+.btn-subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 50px;
+    
+    border: none;
+    border-radius: 4px;
+
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-white-color);
+}
+
+.icon-send{
+    margin-left: 10px;
+}
+
+.footer-form-description{
+    display: inline-block;
+}
+
+.footer-input{
+    background-color: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    width: 358px;
+    height: 50px;
+
+    padding-left: 16px;
 }
 
 /* Portfolio */
