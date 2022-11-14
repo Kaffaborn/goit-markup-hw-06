@@ -515,7 +515,7 @@ header{
 }
 
 .footer-text,
-.footer-form-description{
+.footer-form-lable{
     color: var(--primary-white-color);
     font-weight: 700;
     font-size: 14px;
@@ -535,15 +535,41 @@ header{
     color: var(--primary-white-color);
 }
 
-.footer-form-box{
+.footer-form{
+    display: flex;
     margin-left: 93px;
+
 }
 
+.footer-form>.form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form-lable {
+    display: inline-block;
+}
+
+.footer-input {
+    background-color: transparent;
+    color: var(--primary-white-color);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    width: 358px;
+    height: 50px;
+
+    padding-left: 16px;
+}
 
 .btn-subscribe{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    margin-top: 48px;
+    margin-left: 12px;
 
     width: 200px;
     height: 50px;
@@ -565,22 +591,6 @@ header{
 
 .icon-send{
     margin-left: 10px;
-}
-
-.footer-form-description{
-    display: inline-block;
-}
-
-.footer-input{
-    background-color: transparent;
-
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-
-    width: 358px;
-    height: 50px;
-
-    padding-left: 16px;
 }
 
 /* Portfolio */
