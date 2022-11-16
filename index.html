@@ -420,6 +420,33 @@
               <use href="./images/icons.svg#icon-close-btn"></use>
             </svg>
           </button>
+          <p class="form-name">Залиште свої дані, ми вам передзвонимо</p>
+          <form class="form">
+            <div class="form-field">
+              <label for="name" class="input-name">Ім'я</label>
+              <input type="text" name="name" id="name" class="input" autofocus />
+              <svg class="icon-name" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </div>
+            <div class="form-field">
+              <label for="tel" class="input-name">Телефон</label>
+              <input type="tel" name="tel" id="tel" class="input"></input>
+            </div>
+            <div class="form-field">
+              <label for="mail" class="input-name">Пошта</label>
+              <input type="email" name="mail" id="mail" class="input">
+            </div>
+            <div class="form-field">
+              <label for="comment" class="input-name">Коментар</label>
+              <textarea class="comment" name="comment" id="comment" rows="8" placeholder="Введіть текст"></textarea>
+            </div>
+            <div class="form-field checkbox">
+              <input type="checkbox" name="policy" id="policy">
+              <label for="policy" class="policy">Погоджуюся з розсилкою та приймаю Умови договору</label>
+            </div>
+            <button type="submit" class="modal-submit">Відправити</button>
+          </form>
         </div>
       </div>
     </main>
