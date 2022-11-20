@@ -538,6 +538,7 @@ header{
 .footer-form{
     display: flex;
     margin-left: 93px;
+    padding-right: 16px;
 
 }
 
@@ -779,6 +780,8 @@ header{
     min-height:581px ;
     min-width: 528px;
 
+    padding: 40px 40px;
+
     background-color: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
                 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -817,12 +820,10 @@ header{
     width: 448px;
 
     margin-top: 12px;
-    margin-left: 40px;
 }
 
 .form-name{
     display: flex;
-    margin-top: 40px;
     align-items: center;
     justify-content: center;
 
@@ -961,7 +962,6 @@ header{
     justify-content: center;
 
     margin-top: 30px;
-    margin-bottom: 40px;
     margin-left: 124px;
 
     width: 200px;
